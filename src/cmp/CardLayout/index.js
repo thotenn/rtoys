@@ -1,1 +1,1 @@
-export { default } from './CardLayout';
+export { CardLayout } from './CardLayout';

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { CardLayout } from './cmp/CardLayout/CardLayout';
+import ExaSwitch from './examples/BasicCode/ExaSwitch';
 class App extends Component{
    render(){
       return(
          <div>
-            <CardLayout />
+            {/* <CardLayout /> */}
+            <ExaSwitch />
          </div>
       );
    }
