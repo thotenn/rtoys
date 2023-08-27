@@ -6,3 +6,4 @@ export {
 } from './BasicCode';
 
 export { CardLayout } from './CardLayout';
+export { CardProfile } from './CardProfile';
