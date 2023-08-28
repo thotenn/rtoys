@@ -7,3 +7,4 @@ export {
 
 export { CardLayout } from './CardLayout';
 export { CardProfile } from './CardProfile';
+export { PortfolioMini } from './PortfolioMini';
