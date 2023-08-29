@@ -1,4 +1,5 @@
 import React from "react";
+import './FiltersButtons.css';
 import { useApp } from "../../../providers";
 
 export const FiltersButtons = () => {

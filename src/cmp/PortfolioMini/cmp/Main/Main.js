@@ -4,8 +4,8 @@ import { FiltersSection } from "./Filters/FiltersSection";
 
 export const Main = () => {
   return (
-    <main className="main">
-      <section className="filters container">
+    <main>
+      <section className="container">
         <FiltersButtons />
 
         <FiltersSection />

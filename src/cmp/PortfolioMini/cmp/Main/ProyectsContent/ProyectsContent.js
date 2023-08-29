@@ -1,4 +1,5 @@
 import React from "react";
+import "./Proyects.css";
 import { ProyectCard } from "./ProyectCard";
 
 export const ProyectsContent = ({ data }) => {

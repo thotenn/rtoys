@@ -11,7 +11,30 @@ const defaultConfig = {
     },
     sections: {
         header: {
-
+            profile: {
+                img: "img/profiles/profile1.jpg",
+                name: "José Garay",
+                profession: "Developer"
+            },
+            social: [
+                { iconClass: 'fab fa-facebook', href: '#' },
+                { iconClass: 'fab fa-twitter', href: '#' },
+                { iconClass: 'fab fa-github', href: '#' },
+            ],
+            info: [
+                {num: '7', line1: 'Years of', line2: 'work'},
+                {num: '+123', line1: 'Completed', line2: 'projects'},
+                {num: '96', line1: 'Satisfied', line2: 'customers'}
+            ],
+            buttons: {
+                big: [
+                    {href: '#', title: 'Download CV', iconClass: 'fa-solid fa-download'}
+                ],
+                small: [
+                    {href: 'https://api.whatsapp.com/send?phone=595971163986&text=Hola', iconClass: 'fa-brands fa-whatsapp'},
+                    {href: '#', iconClass: 'fa-brands fa-facebook-messenger'},
+                ]
+            }
         },
         main: {
             targets: ['projects', 'skills'],

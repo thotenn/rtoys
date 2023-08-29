@@ -5,13 +5,13 @@
 import React from "react";
 import "./assets/PortfolioMini.css";
 
-export const PortfolioMini = () => {
+export const PortfolioMiniOriginal = () => {
   return (
     <div className="portfoliomini-main dark-theme">  {/* Quitar el dark-theme para el tema claro */}
     {/* <div className="portfoliomini-main"> */}
       <header className="profile container">
         {/* Theme button */}
-        <i class="fa-regular fa-moon change-theme" id="theme-button" />
+        <i className="fa-regular fa-moon change-theme" id="theme-button" />
         {/* Si es tema oscuro, reemplazar la clase i por "fa-regular fa-sun change-theme */}
 
         <div className="profile__container grid">
@@ -66,15 +66,15 @@ export const PortfolioMini = () => {
 
           <div className="profile__buttons">
             <a download="" href="img/profiles/profile1.jpg" className="button">
-              Download CV <i class="fa-solid fa-download" />
+              Download CV <i className="fa-solid fa-download" />
             </a>
 
             <div className="profile__buttons-small">
               <a href="https://api.whatsapp.com/send?phone=595971163986&text=Hola" target="_blank" className="button button__small button__gray">
-                <i class="fa-brands fa-whatsapp" />
+                <i className="fa-brands fa-whatsapp" />
               </a>
               <a href="#" target="_blank" className="button button__small button__gray">
-                <i class="fa-brands fa-facebook-messenger" />
+                <i className="fa-brands fa-facebook-messenger" />
               </a>
             </div>
           </div>
@@ -83,7 +83,7 @@ export const PortfolioMini = () => {
       </header>
 
       <main className="main">
-        <section class="filters container">
+        <section className="filters container">
           {/* FILTERS TABS */}
 
           <ul className="filters__content">
@@ -95,7 +95,7 @@ export const PortfolioMini = () => {
             </button>
           </ul>
 
-          <div class="filters__sections">
+          <div className="filters__sections">
             {/* PROJECTS */}
             <div className="projects__content grid filters__active" data-content id="projects">
               <article className="projects__card">
@@ -106,7 +106,7 @@ export const PortfolioMini = () => {
                     <span className="projects__subtitle">Web</span>
                     <h3 className="projects__title">Payment Site</h3>
                     <a href="#" className="projects__button button button__small">
-                      <i class="fa-solid fa-link" />
+                      <i className="fa-solid fa-link" />
                     </a>
                   </div>
                 </div>
@@ -120,7 +120,7 @@ export const PortfolioMini = () => {
                     <span className="projects__subtitle">Web</span>
                     <h3 className="projects__title">Portfolio website</h3>
                     <a href="#" className="projects__button button button__small">
-                      <i class="fa-solid fa-link" />
+                      <i className="fa-solid fa-link" />
                     </a>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ export const PortfolioMini = () => {
                     <span className="projects__subtitle">Movil</span>
                     <h3 className="projects__title">Fast food app</h3>
                     <a href="#" className="projects__button button button__small">
-                      <i class="fa-solid fa-link" />
+                      <i className="fa-solid fa-link" />
                     </a>
                   </div>
                 </div>
@@ -148,7 +148,7 @@ export const PortfolioMini = () => {
                     <span className="projects__subtitle">Design</span>
                     <h3 className="projects__title">Music app design</h3>
                     <a href="#" className="projects__button button button__small">
-                      <i class="fa-solid fa-link" />
+                      <i className="fa-solid fa-link" />
                     </a>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ export const PortfolioMini = () => {
 
                   <div className="skills__group">
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">HTML</h3>
@@ -177,7 +177,7 @@ export const PortfolioMini = () => {
                     </div>
 
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">CSS</h3>
@@ -186,7 +186,7 @@ export const PortfolioMini = () => {
                     </div>
 
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">Javascript</h3>
@@ -199,7 +199,7 @@ export const PortfolioMini = () => {
 
                   <div className="skills__group">
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">ReactJS</h3>
@@ -208,7 +208,7 @@ export const PortfolioMini = () => {
                     </div>
 
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">Bootstrap</h3>
@@ -217,7 +217,7 @@ export const PortfolioMini = () => {
                     </div>
 
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">Git</h3>
@@ -240,7 +240,7 @@ export const PortfolioMini = () => {
                   
                   <div className="skills__group">
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">PHP</h3>
@@ -249,7 +249,7 @@ export const PortfolioMini = () => {
                     </div>
 
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">Postgresql</h3>
@@ -258,7 +258,7 @@ export const PortfolioMini = () => {
                     </div>
 
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">Firebase</h3>
@@ -271,7 +271,7 @@ export const PortfolioMini = () => {
 
                   <div className="skills__group">
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">NodeJS</h3>
@@ -280,7 +280,7 @@ export const PortfolioMini = () => {
                     </div>
 
                     <div className="skills__data">
-                      <i class="fa-regular fa-circle-check" />
+                      <i className="fa-regular fa-circle-check" />
 
                       <div>
                         <h3 className="skills__name">Django</h3>
