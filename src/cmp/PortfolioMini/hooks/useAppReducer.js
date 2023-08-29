@@ -103,7 +103,7 @@ const defaultConfig = {
             }
         },
         footer: {
-            txt: '© Puntero Logico. Todos los derechos reservados.'
+            txt: '© THB. Todos los derechos reservados.'
         }
     }
 }
