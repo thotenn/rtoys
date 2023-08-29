@@ -1,1 +1,1 @@
-export { PortfolioMini } from './PortfolioMini';
+export { default as PortfolioMini } from './PortfolioMiniApp';

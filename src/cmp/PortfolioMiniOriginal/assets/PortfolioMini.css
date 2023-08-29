@@ -51,7 +51,7 @@
   margin: 0;
 }
 
-.portfoliomini-container {
+.portfoliomini-main {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -94,7 +94,7 @@ img {
 
 
 /*========== Variables Dark theme ==========*/
-.portfoliomini-container.dark-theme {
+.portfoliomini-main.dark-theme {
   --title-color: hsl(var(--hue), 12%, 95%);
   --text-color: hsl(var(--hue), 12%, 75%);
   --body-color: hsl(var(--hue), 40%, 8%);
@@ -428,6 +428,18 @@ img {
   border-radius: .5rem;
 }
 
+
+/*=============== FOOTER ===============*/
+.footer__copy {
+  display: block;
+  /* margin: 2.5rem 0 2rem; */
+  padding-top: 1.5rem; /* Esto agregue en vez del margin */
+  padding-bottom: 1.5rem; /* Esto agregue en vez del margin */
+
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {

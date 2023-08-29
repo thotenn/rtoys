@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { PortfolioMini } from './cmp/PortfolioMini/PortfolioMini';
+import { PortfolioMini } from './cmp/PortfolioMini';
 // import ExaSwitch from './examples/BasicCode/ExaSwitch';
 // import { CardLayout, CardProfile } from './cmp';
 class App extends Component{
