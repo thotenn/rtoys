@@ -1,1 +1,0 @@
-export { PortfolioMini } from './PortfolioMini';
