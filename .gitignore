@@ -131,4 +131,5 @@ dist
 
 # this project
 build/
+dist/
 package-lock.json
