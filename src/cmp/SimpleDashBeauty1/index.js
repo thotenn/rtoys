@@ -1,0 +1,1 @@
+export { SimpleDashBeauty1 } from './SimpleDashBeauty1';

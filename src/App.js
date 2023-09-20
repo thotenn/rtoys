@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { PortfolioMini } from './cmp/PortfolioMini';
+import { SimpleDashBeauty1 } from './cmp/SimpleDashBeauty1/SimpleDashBeauty1';
+// import { PortfolioMini } from './cmp/PortfolioMini';
 // import { PortfolioMiniOriginal } from './cmp/PortfolioMiniOriginal/PortfolioMini';
 
 // import ExaSwitch from './examples/BasicCode/ExaSwitch';
@@ -11,8 +12,9 @@ class App extends Component{
             {/* <CardLayout /> */}
             {/* <ExaSwitch /> */}
             {/* <CardProfile /> */}
-            <PortfolioMini />
+            {/* <PortfolioMini /> */}
             {/* <PortfolioMiniOriginal /> */}
+            <SimpleDashBeauty1 />
          </div>
       );
    }
