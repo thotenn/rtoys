@@ -8,7 +8,12 @@ import {
     PortfolioMini
 } from './cmp';
 
+import {
+    StringsTools
+} from './controllers';
+
 module.exports = {
+    StringsTools,
     useArrayState,
     Switch,
     Default,
