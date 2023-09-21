@@ -133,3 +133,4 @@ dist
 build/
 dist/
 package-lock.json
+tests/build/
