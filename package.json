@@ -1,6 +1,6 @@
 {
   "name": "rtoys",
-  "version": "0.0.540",
+  "version": "0.0.550",
   "description": "React JS utility lib.",
   "main": "src/index.js",
   "scripts": {
