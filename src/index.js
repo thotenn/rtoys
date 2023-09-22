@@ -20,7 +20,7 @@ export {
     getFetchJsonDict,
     getFetchPdf,
     getFetchRestricted,
-    FetchSuspense,
+    //FetchSuspense, // TODO: No working
     fetchDataSuspender,
     useFetch,
     
@@ -45,11 +45,11 @@ export {
     getObjectByKeys,
 
     // PrintIframe
-    PrintIframe,
+    // PrintIframe,  // TODO: No working
     printIframeDiv,
 
     //PrintPDF
-    PrintPDF,
+    // PrintPDF, // TODO: No working
     printpdf,
     Dimensions,
 
