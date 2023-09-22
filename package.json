@@ -1,6 +1,6 @@
 {
   "name": "rtoys",
-  "version": "0.0.552",
+  "version": "0.0.556",
   "description": "React JS utility lib.",
   "main": "tests/index.js",
   "scripts": {
@@ -36,5 +36,6 @@
   "bugs": {
     "url": "https://github.com/thotenn/rtoys/issues"
   },
-  "homepage": "https://github.com/thotenn/rtoys#readme"
+  "homepage": "https://github.com/thotenn/rtoys#readme",
+  "files": ["src/", "!tests"]
 }
