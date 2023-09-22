@@ -1,6 +1,6 @@
 {
   "name": "rtoys",
-  "version": "0.0.561",
+  "version": "0.0.562",
   "description": "React JS utility lib.",
   "main": "src/index.js",
   "scripts": {
@@ -9,12 +9,14 @@
   "keywords": [],
   "author": "thotenn",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "dependencies": {
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
     "print-js": "^1.6.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "unit-to-px": "^1.0.5"
   },
   "devDependencies": {

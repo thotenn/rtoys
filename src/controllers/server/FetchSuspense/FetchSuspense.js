@@ -45,11 +45,11 @@ export function fetchData(
 }
 /*
 export default function FetchSuspense ({
+    children,
     url,
     dataSend = null,
     method = 'GET',
-    userToken,
-    children
+    userToken = '',
 }) {
     const [ apiFetch, sendApiFetch ] = useState(null);
 
