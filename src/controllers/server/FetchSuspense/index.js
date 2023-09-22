@@ -1,5 +1,5 @@
 export {
-    default as FetchSuspense,
+    // default as FetchSuspense,
     fetchData as fetchDataSuspender
 } from './FetchSuspense';
 

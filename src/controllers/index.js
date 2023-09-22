@@ -6,7 +6,7 @@ export {
     getFetchJsonDict,
     getFetchPdf,
     getFetchRestricted,
-    FetchSuspense,
+    // FetchSuspense,
     fetchDataSuspender,
     useFetch
 } from './server';
@@ -56,12 +56,12 @@ export {
 } from './objects';
 
 export {
-    PrintIframe,
+    // PrintIframe,
     printIframeDiv
 } from './PrintIframe';
 
 export {
-    default as PrintPDF,
+    // default as PrintPDF,
     printpdf,
     Dimensions
 } from './PrintPDF';

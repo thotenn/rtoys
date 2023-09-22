@@ -22,6 +22,7 @@ export const printIframeDiv = (divId) => {
  * @param children
  * @returns {JSX.Element}
  */
+/*
 export const PrintIframe = ({children}) => {
     return (
         <React.Fragment>
@@ -36,4 +37,4 @@ export const PrintIframe = ({children}) => {
             {children}
         </React.Fragment>
     );
-}
+}*/

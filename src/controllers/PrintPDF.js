@@ -56,13 +56,13 @@ const download = (images, filename) => {
  * @param children
  * @returns {JSX.Element}
  */
-export default ({children}) => {
+/*export default ({children}) => {
     return (
         <div id='pages'>
             {children}
         </div>
     )
-}
+}*/
 
 export const Dimensions = [
     {

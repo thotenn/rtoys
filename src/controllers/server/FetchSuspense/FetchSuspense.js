@@ -43,7 +43,7 @@ export function fetchData(
 
     return getSuspender(promise)
 }
-
+/*
 export default function FetchSuspense ({
     url,
     dataSend = null,
@@ -80,3 +80,4 @@ export default function FetchSuspense ({
     //     </Suspense>
     // )
 }
+*/

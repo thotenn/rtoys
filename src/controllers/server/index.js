@@ -7,7 +7,7 @@ export {
 } from './ApiCommons';
 
 export {
-    FetchSuspense,
+    // FetchSuspense,
     fetchDataSuspender,
     useFetch
 } from './FetchSuspense';
