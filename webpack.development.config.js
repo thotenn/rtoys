@@ -4,7 +4,7 @@ const webpack = require("webpack");
 
 module.exports = {
     entry: [
-        path.resolve(__dirname, './tests/index.js')
+        path.resolve(__dirname, './tests/index.js'),
     ],
     output: {
         path: path.resolve(__dirname, "./tests/build"),
@@ -16,7 +16,10 @@ module.exports = {
         rules: [
             {
                 test: /\.(js|jsx|mjs)?$/,
-                include: path.resolve(__dirname, 'tests'),
+                include: [
+                    path.join(__dirname, 'tests'),
+                    path.join(__dirname, 'src'),
+                ],
                 exclude: /(node_modules|bower_components|build|__pycache__|static|templates)/,
                 // loader: 'babel-loader'
                 use: {  // NEW

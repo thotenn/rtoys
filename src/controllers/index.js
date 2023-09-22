@@ -56,7 +56,7 @@ export {
 } from './objects';
 
 export {
-    default as PrintIframe,
+    PrintIframe,
     printIframeDiv
 } from './PrintIframe';
 

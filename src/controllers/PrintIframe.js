@@ -22,16 +22,18 @@ export const printIframeDiv = (divId) => {
  * @param children
  * @returns {JSX.Element}
  */
-export default ({children}) => {
-    return (<>
-        <iframe
-            id="ifmcontentstoprint"
-            style={{
-                height: '0px',
-                width: '0px',
-                position: 'absolute'
-            }}
-        />
-        {children}
-    </>);
+export const PrintIframe = ({children}) => {
+    return (
+        <React.Fragment>
+            <iframe
+                id="ifmcontentstoprint"
+                style={{
+                    height: '0px',
+                    width: '0px',
+                    position: 'absolute'
+                }}
+            />
+            {children}
+        </React.Fragment>
+    );
 }

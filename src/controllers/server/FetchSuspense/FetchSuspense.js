@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { getFetchJsonDict } from "../ApiCommons";
 
 function getSuspender(promise) {
@@ -68,12 +68,15 @@ export default function FetchSuspense ({
         sendApiFetch(apiData)
     }, []);
 
-    return React.Suspense({fallback: "...", children: children});
+    return <div>{children}</div>
+    // return React.createElement(Suspense, { fallback: React.createElement('h1', {}, 'Mundo') }, children);
+
+    // return Suspense({fallback: "...", children: children});
 
     // TODO: Verificar Suspense si funciona
-    /*return (
-        <Suspense fallback={<CircularProgress />}>
-            {children}
-        </Suspense>
-    )*/
+    // return (
+    //     <Suspense fallback={<>...</>}>
+    //         {children}
+    //     </Suspense>
+    // )
 }

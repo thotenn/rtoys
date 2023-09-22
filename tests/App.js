@@ -1,15 +1,18 @@
-import React, { Component } from 'react';
-// import { FetchSuspense } from '../src';
+import React from "react";
+import { Case, FetchSuspense, StringsTools, Switch } from "../src";
 
-class App extends Component{
-   render(){
-      return(
-         <div>
-            {/* <FetchSuspense > */}
-                <h1>Hello</h1>
-            {/* </FetchSuspense> */}
-         </div>
-      );
-   }
-}
+const numTools = StringsTools;
+
+const App = () => {
+  return (
+    <div>
+        <h1>Hello {numTools.numPointsSep('456654654')}</h1>
+        <Switch>
+            <Case condition={true}>
+                <h2>Hola mundo</h2>
+            </Case>
+        </Switch>
+    </div>
+  );
+};
 export default App;
