@@ -18,6 +18,24 @@ class StringsTools {
     }
 
     /**
+     * Separa en miles y retorna en string un numero float
+     * @param {String} x El numero tipo float
+     * @param {String} character El caracter separador de miles
+     * @param {String} floatCharacter El caracter de punto flotante
+     * @returns {String}
+     */
+    static floatNumPointSep(x, character = '.', floatCharacter = '.', floatCharFinal = ','){
+        if (x === 0) return '0';
+        if (!x) return '';
+        const s = x.toString();
+        const xSplitted = s.split(floatCharacter);
+        const integerPart = xSplitted[0];
+        const floatPart = xSplitted[1];
+        const integerFinal = StringsTools.numPointsSep(integerPart, character);
+        return integerFinal + floatCharFinal + floatPart;
+    }
+
+    /**
      * Extrae los numeros de un string y los retorna en un entero
      * @param x {string}
      * @returns {number}
