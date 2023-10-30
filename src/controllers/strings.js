@@ -22,17 +22,22 @@ class StringsTools {
      * @param {String} x El numero tipo float
      * @param {String} character El caracter separador de miles
      * @param {String} floatCharacter El caracter de punto flotante
+     * @param {String} floatPartIfNull En caso de que lo enviado sea un entero
+     * Este string sera que que contendra la parte final del numero formateado,
+     * Ej: x=1234567, floatPartIfNull=',00' => resultado = '1.234.567,00
      * @returns {String}
      */
-    static floatNumPointSep(x, character = '.', floatCharacter = '.', floatCharFinal = ','){
+    static floatNumPointSep(x, character = '.', floatCharacter = '.', floatCharFinal = ',', floatPartIfNull=""){
         if (x === 0) return '0';
         if (!x) return '';
         const s = x.toString();
         const xSplitted = s.split(floatCharacter);
         const integerPart = xSplitted[0];
-        const floatPart = xSplitted[1];
+        let floatPart = floatPartIfNull;
+        if (!["", null, undefined].includes(xSplitted[1]))
+            floatPart = floatCharFinal + xSplitted[1];
         const integerFinal = StringsTools.numPointsSep(integerPart, character);
-        return integerFinal + floatCharFinal + floatPart;
+        return integerFinal + floatPart;
     }
 
     /**
