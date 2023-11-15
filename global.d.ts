@@ -1,1 +1,1 @@
-declare module 'rtoys';
+declare module '*';
