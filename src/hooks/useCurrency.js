@@ -13,7 +13,6 @@ export default function useCurrency({
         let current = currencyProps;
         let x = '';
 
-        console.log(current)
         if (newCurrency !== null)
             if (currencies.hasOwnProperty(newCurrency))
                 current = currencies[newCurrency];
